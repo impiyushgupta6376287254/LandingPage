@@ -1,0 +1,147 @@
+header{
+    width: 100%;
+    height: 100vh;
+    background: url('img/img.jpg.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.brand{
+    font-size: 2em;
+    letter-spacing: 1.8px;
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+.home a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+    padding: 10px 20px;
+    
+} 
+.home a:hover{
+    width: 90%;
+    border-bottom: 2px solid blue;
+    transition: 0.4s linear;
+}
+.signup a{
+    text-decoration: none;
+    font-size: 20px;
+    background: red;
+    color: white;
+    padding: 10px 20px;
+}
+.signup a:hover{
+    background: transparent;
+    border: 1px solid indianred;
+}
+.welcome h1{
+    font-size: 60px;
+    color:darkcyan ;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-decoration: underline;
+}
+.information{
+    height: 500px;
+    top: 70%;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    
+}
+.information h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    color: green;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.information form{
+    background: url('img/light.jpg');
+    padding: 2rem;
+    border-radius: 3rem;
+}
+.information label{
+    
+    font-size: 1.8rem;
+    margin-right: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:forestgreen;
+}
+.information input[type="text"], .information input[type="date"]{
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 1.5rem;
+}
+.information button[type="search"], .information button[type="reset"]{
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+.information button[type="search"]:hover, .information button[type="reset"]:hover{
+    background:green;
+}
+.book{
+    max-width: 650px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+   
+}
+.book a{
+    text-decoration: none;
+    background: red;
+    color: whitesmoke;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+    font-size: 25px;
+    border-radius: 1.5rem;
+    transition: 0.5s;
+}
+.book a:hover{
+background: transparent;
+border:2px solid black;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    width: 100%;
+    height: 25vh;
+} 
+.foot a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px 20px;
+}
+section p {
+    line-height: 1.5;
+}
+footer p{
+    font-size: 18px;
+    text-align: center;
+}
+.foot a:hover{
+width: 90%;
+border-bottom: 2px solid white;
+transition: 0.4s ;
+}
